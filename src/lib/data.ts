@@ -19,6 +19,12 @@ export const initialBins: Bin[] = [
   { id: 'b007', type: 'glass', location: { lat: 90, lng: 10 }, fillLevel: 60, status: 'ok' },
   { id: 'b008', type: 'organic', location: { lat: 40, lng: 60 }, fillLevel: 78, status: 'ok' },
   { id: 'b009', type: 'plastic', location: { lat: 60, lng: 40 }, fillLevel: 95, status: 'full' },
+  { id: 'b010', type: 'paper', location: { lat: 15, lng: 15 }, fillLevel: 30, status: 'ok' },
+  { id: 'b011', type: 'glass', location: { lat: 85, lng: 55 }, fillLevel: 70, status: 'ok' },
+  { id: 'b012', type: 'organic', location: { lat: 5, lng: 50 }, fillLevel: 50, status: 'ok' },
+  { id: 'b013', type: 'plastic', location: { lat: 45, lng: 85 }, fillLevel: 88, status: 'full' },
+  { id: 'b014', type: 'paper', location: { lat: 65, lng: 10 }, fillLevel: 10, status: 'ok' },
+  { id: 'b015', type: 'glass', location: { lat: 20, lng: 60 }, fillLevel: 40, status: 'ok' },
 ];
 
 export const initialReports: Report[] = [
