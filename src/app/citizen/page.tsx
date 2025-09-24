@@ -10,6 +10,7 @@ import { BinIcon, Icons } from '@/components/icons';
 import { cn } from '@/lib/utils';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
+import { Label } from '@/components/ui/label';
 
 const binTypes: BinType[] = ['plastic', 'paper', 'glass', 'organic'];
 
