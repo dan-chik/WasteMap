@@ -17,7 +17,7 @@ export default function LeaderboardPage() {
         <div className="grid gap-4">
             <Card className="bg-gradient-to-r from-primary to-cyan-600 text-primary-foreground">
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2"><Icons.trophy/> Leaderboard</CardTitle>
+                    <CardTitle className="flex items-center gap-2"><Icons.leaderboard/> Leaderboard</CardTitle>
                     <CardDescription className="text-primary-foreground/80">See who the top eco-contributors are!</CardDescription>
                 </CardHeader>
                 {currentUserRank > 0 && (
